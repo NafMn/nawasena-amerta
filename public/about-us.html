@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. Nawasena Amerta Expora</title>
+    <link href="/src/css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header
+      class="bg-[url('/public/assets/images/hero.png')] bg-cover bg-center min-h-[calc(100vh-450px)]"
+    >
+      <nav
+        class="fixed top-0 w-full bg-white shadow-md px-8 lg:px-16 md:px-24 py-5 flex justify-between items-center z-50"
+      >
+        <div class="text-xl font-bold">NAWASENA AMERTA</div>
+        <button id="menu-toggle" class="md:hidden text-gray-800">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+        <div class="flex items-center gap-6">
+          <div>
+            <ul
+              id="menu"
+              class="hidden flex-col md:flex md:flex-row md:items-center gap-6 text-sm font-medium text-gray-800"
+            >
+              <li>
+                <a href="./index.html" class="hover:text-blue-600">Home</a>
+              </li>
+              <li>
+                <a href="./about-us.html" class="hover:text-blue-600"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="/products.html" class="hover:text-blue-600"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="./contact.html" class="hover:text-blue-600">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- CTA Button -->
+          <a
+            href="https://wa.me/6281234567890"
+            target="_blank"
+            class="hidden md:flex items-center gap-2 border border-gray-400 px-4 py-2 rounded-full text-sm hover:bg-gray-100"
+          >
+            <img
+              src="/assets/icons/whatsapp.svg"
+              alt="WhatsApp"
+              class="w-5 h-5"
+            />
+            Call Now
+          </a>
+        </div>
+      </nav>
+
+      <section
+        class="flex flex-col justify-center items-start min-h-[calc(100vh-80px)] space-y-4"
+      >
+        <h2 class="text-white">About Us</h2>
+        <h1>PT NAWASENA AMERTA EKSPORA</h1>
+        <p class="text-white">
+          Bringing Indonesian spices to the world market with global quality
+          standards and a spirit of sustainability.
+        </p>
+      </section>
+    </header>
+
+    <main></main>
+
+    <footer>
+      <div class="flex flex-col md:flex-row justify-between items-start gap-10">
+        <div class="space-y-4 md:w-8/12">
+          <h4 class="font-bold">PT. NAWASENA AMERTA EKSPORA</h4>
+        </div>
+        <div class="grid grid-cols-2 md:gap-10">
+          <div class="space-y-2 w">
+            <h4 class="font-bold">Company</h4>
+            <p>About Us</p>
+            <p>Products</p>
+            <p>Contact Us</p>
+          </div>
+          <div>
+            <h4 class="font-bold">Contact</h4>
+            <p>+62 851-1737-8529</p>
+            <p>support@nawasenaexport.com</p>
+            <p>ptnawasenaamertaekspora@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
