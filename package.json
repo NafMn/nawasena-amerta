@@ -1,4 +1,10 @@
 {
+  "name": "flexdev-nawasena-amerta",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./public/assets/css/style.css --minify"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",
     "tailwindcss": "^4.1.10"

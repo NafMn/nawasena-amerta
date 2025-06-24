@@ -1,12 +1,13 @@
-// tailwind.config.js
 module.exports = {
-  content: ["./public/**/*.html", "./src/**/*.{js,html}"],
+  content: ["./public/**/*.html", "./src/**/*.{js,html}", "./index.html"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', "sans-serif"],
-        jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
+        jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero': "url('/public/assets/images/hero.png')",
+      }
     },
   },
   plugins: [],

@@ -1,0 +1,14 @@
+# Abaikan file hasil build Tailwind
+src/styles/output.css
+
+# Direktori dependency
+node_modules/
+
+# Cache Tailwind
+.tailwind-cache/
+
+# File log
+npm-debug.log*
+
+# File sistem
+.DS_Store
