@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.10",
+  "name": "flexdev-nawasena-amerta",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "build": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify"
+  },
+  "devDependencies": {
     "tailwindcss": "^4.1.10"
   }
 }
