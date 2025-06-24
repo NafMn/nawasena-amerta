@@ -8,7 +8,7 @@
   </head>
   <body>
     <header
-      class="bg-[url('/public/assets/images/hero.png')] bg-cover bg-center min-h-[calc(100vh-450px)]"
+      class="bg-[url('/public/assets/images/hero.png')] bg-cover bg-center max-h-[calc(100vh-300px)]"
     >
       <nav
         class="fixed top-0 w-full bg-white shadow-md px-8 lg:px-16 md:px-24 py-5 flex justify-between items-center z-50"
@@ -70,7 +70,7 @@
       </nav>
 
       <section
-        class="flex flex-col justify-center items-start min-h-[calc(100vh-80px)] space-y-4"
+        class="flex flex-col justify-end md:justify-center items-start min-h-[calc(100vh-400px)] md:min-h-[calc(100vh-80px)] space-y-4 py-10"
       >
         <h2 class="text-white">About Us</h2>
         <h1>PT NAWASENA AMERTA EKSPORA</h1>
@@ -81,7 +81,143 @@
       </section>
     </header>
 
-    <main></main>
+    <main>
+      <section class="flex gap-10 py-24 md:py-40">
+        <div class="space-y-6 md:w-4/6">
+          <h2 class="text-yellow-500 font-bold">
+            Welcome to PT. Nawasena Amerta Ekspora
+          </h2>
+          <h4>
+            PT. Nawasena Amerta Ekspora is a spice export company committed to
+            bringing Indonesia’s natural richness to the global market. We
+            believe that quality, sustainability, and strong partnerships are
+            the key pillars guiding every step we take.
+          </h4>
+          <h4>
+            With a primary focus on ginger commodities, we bridge local
+            agricultural produce with global demand — maintaining quality,
+            supporting farmers, and meeting the needs of the international
+            market.
+          </h4>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-18">
+        <div
+          class="bg-[#3B8955] rounded-2xl p-8 md:p-14 md:px-20 space-y-2 h-fit col-span-1"
+        >
+          <h2 class="text-yellow-500 font-bold">VISION</h2>
+          <h4 class="text-white">
+            To become a leading export company that introduces Indonesia’s
+            finest products to global markets, with a strong commitment to
+            quality and sustainability.
+          </h4>
+        </div>
+        <div class="bg-[#3B8955] rounded-2xl p-8 md:p-14 md:px-20 space-y-2 md:mt-32 col-span-1">
+          <h2 class="text-yellow-500 font-bold">MISSION</h2>
+          <ul class="list-disc ml-6 text-white text-list">
+            <li>
+              To promote and distribute Indonesia’s top-quality local products
+              to international markets.
+            </li>
+            <li>
+              To maintain high standards of quality, reliability, and
+              punctuality in every export process.
+            </li>
+            <li>
+              To build strategic partnerships with businesses both domestically
+              and globally.
+            </li>
+            <li>
+              To support the growth of local MSMEs (Micro, Small, and Medium
+              Enterprises) by opening access to global markets.
+            </li>
+            <li>
+              To uphold sustainability, professionalism, and integrity in all of
+              our business practices.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="text-center py-24 md:py-40 space-y-4">
+        <h3 class="text-yellow-500 md:font-semibold">Our Core Value</h3>
+        <h2>PT. NAWASENA AMERTA EKSPORA</h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 mt-20"
+        >
+          <div
+            class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
+          >
+            <img
+              src="./assets/icons/quality.svg"
+              alt=""
+              class="w-14 h-14 md:h-auto md:w-auto"
+            />
+            <h4 class="font-semibold text-xl md:text-2xl">Quality</h4>
+            <p>
+              We uphold the highest standards of quality at every stage — from
+              selecting the finest ginger, to hygienic packaging processes, and
+              timely international delivery. Our commitment is to provide
+              products that meet global standards and ensure customer
+              satisfaction.
+            </p>
+          </div>
+          <div
+            class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
+          >
+            <img
+              src="./assets/icons/commitment.svg"
+              alt=""
+              class="w-14 h-14 md:h-auto md:w-auto"
+            />
+            <h4 class="font-semibold text-xl md:text-2xl">Commitment</h4>
+            <p>
+              We are dedicated to bringing Indonesia’s finest spices to the
+              world. Every partnership is a responsibility we take seriously,
+              and every shipment reflects our integrity and reliability.
+            </p>
+          </div>
+          <div
+            class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
+          >
+            <img
+              src="./assets/icons/innovation.svg"
+              alt=""
+              class="w-14 h-14 md:h-auto md:w-auto"
+            />
+            <h4 class="font-semibold text-xl md:text-2xl">innovation</h4>
+            <p>
+              We continuously innovate our cultivation, processing, and
+              packaging methods to ensure our ginger and spices not only meet
+              the highest quality but also adapt to global standards and dynamic
+              market demands.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative p-10 lg:p-20 bg-[#267D48] rounded-2xl">
+        <img
+          src="./assets/ornaments/ornament-2.svg"
+          alt=""
+          class="absolute top-0 right-0 h-32 md:h-auto"
+        />
+        <img
+          src="./assets/ornaments/ornament-3.svg"
+          alt=""
+          class="absolute top-5 left-14 w-44 md:w-auto h-auto"
+        />
+        <div class="text-center space-y-3 md:space-y-5 z-10 relative">
+          <h3>Interested in working with us?</h3>
+          <h4 class="text-white md:px-18">
+            Contact us today and let’s bring the finest Indonesian spices to
+            your market.
+          </h4>
+          <button class="btn-primary">Contact Us via WhatsApp</button>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="flex flex-col md:flex-row justify-between items-start gap-10">

@@ -27,7 +27,7 @@
     @apply text-lg font-bold text-white leading-tight;
     @apply md:text-2xl lg:text-3xl;
   }
-  h4 {
+  h4, .text-list {
     @apply text-sm text-black leading-5 tracking-wide;
     @apply md:text-xl md:leading-10 lg:text-2xl;
   }
