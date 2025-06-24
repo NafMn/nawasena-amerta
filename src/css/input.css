@@ -17,23 +17,23 @@
   }
   h1 {
     @apply text-4xl font-extrabold text-white  leading-tight;
-    @apply md:text-6xl lg:text-8xl;
+    @apply md:text-[64px] lg:text-7xl;
   }
   h2 {
     @apply text-xl font-extrabold text-green-700 leading-tight;
-    @apply md:text-3xl lg:text-4xl;
+    @apply md:text-[28px] lg:text-[32px];
   }
   h3 {
     @apply text-lg font-bold text-white leading-tight;
     @apply md:text-2xl lg:text-3xl;
   }
-  h4 {
-    @apply text-sm text-gray-600 leading-snug tracking-wide;
-    @apply md:text-xl md:font-semibold lg:text-2xl;
+  h4, .text-list {
+    @apply text-sm text-black leading-5 tracking-wide;
+    @apply md:text-xl md:leading-10 lg:text-2xl;
   }
-  p {
-    @apply text-xs text-gray-700 tracking-wide leading-5;
-    @apply md:text-xs lg:text-sm md:leading-8;
+  p, .btn-primary, .btn-secondary {
+    @apply text-xs text-black tracking-wide leading-5;
+    @apply md:text-base lg:text-lg md:leading-8;
   }
   caption {
     @apply text-sm text-gray-500;
@@ -43,9 +43,13 @@
     @apply mx-5 md:mx-24 lg:mx-32;
   }
   footer {
-    @apply bg-amber-50 text-white my-8 py-8 px-5 md:px-24 lg:px-32;
+    @apply bg-amber-50 text-white mt-16 md:mt-32 py-16 px-5 md:px-24 lg:px-32;
   }
-  button {
-    @apply hover:bg-green-800 transition-colors duration-300 border border-white py-2 px-4 rounded-full text-white cursor-pointer;
+  .btn-primary {
+    @apply hover:bg-green-700 transition-colors duration-300 border border-white py-2 px-4 rounded-full text-white cursor-pointer;
   }
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-100 transition-colors duration-300 border border-black py-2 px-4 rounded-full text-black cursor-pointer;
+  }
+
 }

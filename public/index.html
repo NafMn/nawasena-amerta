@@ -9,7 +9,7 @@
   <body>
     <header class="bg-[url('../images/hero.png')] bg-cover bg-center h-screen">
       <nav
-        class="fixed top-2 w-full bg-white shadow-md px-8 lg:px-16 md:px-24 py-5 flex justify-between items-center z-50"
+        class="fixed top-0 w-full bg-white shadow-md px-8 lg:px-16 md:px-24 py-5 flex justify-between items-center z-50"
       >
         <div class="text-xl font-bold">NAWASENA AMERTA</div>
         <button id="menu-toggle" class="md:hidden text-gray-800">
@@ -37,11 +37,16 @@
                 <a href="./index.html" class="hover:text-blue-600">Home</a>
               </li>
               <li>
-                <a href="./about.html" class="hover:text-blue-600">About Us</a>
+                <a href="./about-us.html" class="hover:text-blue-600">About Us</a>
               </li>
               <li>
                 <a href="/products.html" class="hover:text-blue-600"
                   >Products</a
+                >
+              </li>
+              <li>
+                <a href="./contact.html" class="hover:text-blue-600"
+                  >Contact</a
                 >
               </li>
             </ul>
@@ -76,24 +81,25 @@
           <br />
           between local farmers and the international world.
         </p>
+        <button class="btn-secondary">Call Now</button>
       </section>
     </header>
 
     <section class="grid grid-cols-1 md:grid-cols-2 gap-10 py-24 md:py-40">
       <div class="space-y-6 flex flex-col justify-center items-start lg:pr-20">
-        <h2 class="font-jakarta text-yellow-500">A Closer Look at Nawasena</h2>
-        <h4>
+        <h2 class="font-bold text-yellow-500">A Closer Look at Nawasena</h2>
+        <h4 class="font-normal">
           PT. Nawasena Amerta Ekspora is a spice export company committed to
           bringing Indonesia’s natural richness to the global market. We believe
           that quality, sustainability, and strong partnerships are the key
           pillars guiding every step we take.
         </h4>
-        <h4>
+        <h4 class="font-normal">
           With a primary focus on ginger commodities, we bridge local
           agricultural produce with global demand — maintaining quality,
           supporting farmers, and meeting the needs of the international market.
         </h4>
-        <button>Read More</button>
+        <button class="btn-secondary">Read More</button>
       </div>
       <div>
         <img
@@ -141,20 +147,20 @@
             perfectly suited to meet the demands of the global market with top
             export quality.
           </p>
-          <button>View Product Details</button>
+          <button class="btn-primary">View Product Details</button>
         </div>
       </div>
     </section>
 
     <section class="text-center py-24 md:py-40 space-y-4">
-      <h3 class="text-yellow-500 font-semibold">Why Choose Nawasena</h3>
+      <h3 class="text-yellow-500 md:font-semibold">Why Choose Nawasena</h3>
       <h2>PT. NAWASENA AMERTA EKSPORA</h2>
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 mt-20"
       >
-        <div class="text-start space-y-4">
-          <img src="./assets/icons/quality.svg" alt="" />
-          <h4>Quality</h4>
+        <div class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4">
+          <img src="./assets/icons/quality.svg" alt="" class="w-14 h-14 md:h-auto md:w-auto" />
+          <h4 class="font-semibold text-xl md:text-2xl">Quality</h4>
           <p>
             We uphold the highest standards of quality at every stage — from
             selecting the finest ginger, to hygienic packaging processes, and
@@ -162,18 +168,18 @@
             that meet global standards and ensure customer satisfaction.
           </p>
         </div>
-        <div class="text-start space-y-4">
-          <img src="./assets/icons/commitment.svg" alt="" />
-          <h4>Commitment</h4>
+        <div class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4">
+          <img src="./assets/icons/commitment.svg" alt="" class="w-14 h-14 md:h-auto md:w-auto" />
+          <h4 class="font-semibold text-xl md:text-2xl">Commitment</h4>
           <p>
             We are dedicated to bringing Indonesia’s finest spices to the world.
             Every partnership is a responsibility we take seriously, and every
             shipment reflects our integrity and reliability.
           </p>
         </div>
-        <div class="text-start space-y-4">
-          <img src="./assets/icons/innovation.svg" alt="" />
-          <h4>innovation</h4>
+        <div class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4">
+          <img src="./assets/icons/innovation.svg" alt="" class="w-14 h-14 md:h-auto md:w-auto" />
+          <h4 class="font-semibold text-xl md:text-2xl">innovation</h4>
           <p>
             We continuously innovate our cultivation, processing, and packaging
             methods to ensure our ginger and spices not only meet the highest
@@ -185,21 +191,21 @@
     </section>
 
     <section
-      class="relative px-8 md:px-24 lg:px-32 py-10 md:p-16 lg:p-20 bg-[#267D48] rounded-2xl"
+      class="relative px-8 md:px-24 lg:px-32 p-16 lg:p-20 bg-[#267D48] rounded-2xl"
     >
       <img
         src="./assets/ornaments/ornament-2.svg"
         alt=""
-        class="absolute top-0 right-0 h-auto"
+        class="absolute top-0 right-0 h-32 md:h-auto"
       />
       <img
         src="./assets/ornaments/ornament-3.svg"
         alt=""
-        class="absolute top-5 left-14 h-auto"
+        class="absolute top-5 left-14 w-44 md:w-auto h-auto"
       />
-      <div class="text-center space-y-5 z-10 relative">
+      <div class="text-center space-y-3 md:space-y-5 z-10 relative">
         <h3>Ready to Bring Indonesian Ginger to Your Market?</h3>
-        <h4 class="text-white">
+        <h4 class="text-white md:px-18">
           Partner with PT. Nawasena Amerta Ekspora and receive premium-grade
           Ginger with consistent quality, sustainable practices, and reliable
           delivery. Let’s grow together globally.
@@ -210,24 +216,21 @@
     <footer>
       <div class="flex flex-col md:flex-row justify-between items-start gap-10">
         <div class="space-y-4 md:w-8/12">
-          <h4>PT. NAWASENA AMERTA EKSPORA</h4>
-          <p class="leading-normal text-base">
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit, sed do <br />
-            eiusmod tempor.
-          </p>
+          <h4 class="font-bold">PT. NAWASENA AMERTA EKSPORA</h4>
         </div>
-        <div class="space-y-4 w">
-          <h4>Company</h4>
-          <p>About Us</p>
-          <p>Products</p>
-          <p>Contact Us</p>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <p>+62 851-1737-8529</p>
-          <p>support@nawasenaexport.com</p>
-          <p>ptnawasenaamertaekspora@gmail.com</p>
+        <div class="grid grid-cols-2 md:gap-10">
+          <div class="space-y-2 w">
+            <h4 class="font-bold">Company</h4>
+            <p>About Us</p>
+            <p>Products</p>
+            <p>Contact Us</p>
+          </div>
+          <div>
+            <h4 class="font-bold">Contact</h4>
+            <p>+62 851-1737-8529</p>
+            <p>support@nawasenaexport.com</p>
+            <p>ptnawasenaamertaekspora@gmail.com</p>
+          </div>
         </div>
       </div>
     </footer>
