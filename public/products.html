@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PT. Nawasena Amerta Expora</title>
+    <title>Product - PT. Nawasena Amerta Expora</title>
     <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <header class="bg-[url('../images/hero.png')] bg-cover bg-center h-screen">
+    <header
+      class="bg-[url('/public/assets/images/hero.png')] bg-cover bg-center max-h-[calc(100vh-300px)]"
+    >
       <nav
         class="fixed top-0 w-full bg-white shadow-md px-8 lg:px-16 md:px-24 py-5 flex justify-between items-center z-50"
       >
@@ -85,174 +88,282 @@
         </div>
       </nav>
 
+
       <section
-        class="flex flex-col justify-center items-start min-h-[calc(100vh-80px)] space-y-4"
+        class="flex flex-col justify-end md:justify-center items-start min-h-[calc(100vh-400px)] md:min-h-[calc(100vh-80px)] space-y-4 py-10"
       >
-        <h3 data-animate>PT. NAWASENA AMERTA EKSPORA</h3>
-        <h1 data-animate>
-          Bringing the <span class="text-green-400">Flavors</span> of the
-          <br /><span class="text-green-400">Archipelago</span> to the World
-        </h1>
-        <p class="text-white" data-animate>
-          Exporting Indonesia’s finest spices to the global market with
-          consistent quality, sustainability, and trust. We serve as a bridge
-          <br />
-          between local farmers and the international world.
+        <h1 data-animate>Our Products</h1>
+        <p data-animate class="text-white">
+          Bringing Indonesian spices to the world market with global quality
+          standards and a spirit of sustainability.
         </p>
-        <button class="btn-secondary" data-animate>Call Now</button>
       </section>
     </header>
 
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-10 py-24 md:py-40" data-animate>
-      <div class="space-y-6 flex flex-col justify-center items-start lg:pr-20">
-        <h2 class="font-bold text-yellow-500" data-animate>A Closer Look at Nawasena</h2>
-        <h4 class="font-normal" data-animate>
-          PT. Nawasena Amerta Ekspora is a spice export company committed to
-          bringing Indonesia’s natural richness to the global market. We believe
-          that quality, sustainability, and strong partnerships are the key
-          pillars guiding every step we take.
-        </h4>
-        <h4 class="font-normal" data-animate>
-          With a primary focus on ginger commodities, we bridge local
-          agricultural produce with global demand — maintaining quality,
-          supporting farmers, and meeting the needs of the international market.
-        </h4>
-        <button class="btn-secondary" data-animate>Read More</button>
-      </div>
-      <div>
-        <img
-          src="./assets/images/image-right.svg"
-          alt=""
-          class="w-full h-auto"
-        />
-      </div>
-    </section>
-
-    <section>
-      <div
-        class="relative px-8 md:px-24 py-10 lg:p-14 bg-[#267D48] rounded-2xl flex flex-col md:flex-row items-center gap-10" data-animate
+    <main>
+      <section
+        class="grid grid-cols-2 gap-5 md:gap-0flex-wrap py-24 md:py-40 text-center"
       >
-        <img
-          src="./assets/ornaments/ornament-2.svg"
-          alt=""
-          class="absolute top-0 right-0 h-auto"
-        />
-        <div class="relative w-full md:w-1/3 h-auto">
-          <img
-            src="./assets/ornaments/ornament.png"
+        <div class="space-y-3">
+          <img data-animate
+            src="./assets/images/ginger-home.png"
             alt=""
-            class="absolute top-0 left-0 w-full h-auto"
-          />
-          <img
-            src="./assets//images/ginger-home.png"
-            alt="Ginger-PT Nawasena Amerta"
-            class="rounded-2xl w-full h-auto object-cover md:object-cover"
+            class="h-auto max-h-92 rounded-xl block mx-auto"
             data-animate
           />
-        </div>
-        <div class="space-y-4 md:w-2/3">
-          <h2 class="text-yellow-300" data-animate>Our Best Products from Nawasena</h2>
-          <h3 data-animate>Jahe Gajah</h3>
-          <p class="text-white" data-animate>
-            Gajah ginger (Zingiber officinale) is a premium Indonesian variety
-            known for its large rhizomes, <br />
-            low fibre content, and distinctive aroma. It is ideal for use in the
-            food, herbal beverage, <br />
-            pharmaceutical, and cosmetic industries.
-          </p>
-          <p class="text-white" data-animate>
-            Our Gajah ginger features uniform sizing, long shelf life, and a
-            smooth, low-fibre texture — <br />
-            perfectly suited to meet the demands of the global market with top
-            export quality.
-          </p>
-          <a href="./products.html#zingiber-officinale">
-            <button class="btn-primary" data-animate>View Product Details</button>
+          <h3 data-animate data-animate class="text-green-700">
+            Zingiber officinale <br />
+            (Jahe Gajah)
+          </h3>
+          <a data-animate href="#zingiber-officinale">
+            <button class="btn-secondary">Learn More</button>
           </a>
         </div>
-      </div>
-    </section>
+        <div class="space-y-3">
+          <img data-animate
+            src="./assets/images/cinnamon.png"
+            alt=""
+            class="h-auto max-h-92 rounded-xl block mx-auto" data-animate
+          />
+          <h3 data-animate data-animate class="text-green-700">
+            Cinnamon <br />
+            (Kayu Manis)
+          </h3>
+          <a data-animate href="#cinamon">
+            <button class="btn-secondary">Learn More</button>
+          </a>
+        </div>
+      </section>
 
-    <section class="text-center py-24 md:py-40 space-y-4">
-      <h3 class="text-yellow-500 md:font-semibold" data-animate>Why Choose Nawasena</h3>
-      <h2 data-animate>PT. NAWASENA AMERTA EKSPORA</h2>
       <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 mt-20" data-animate
+        id="zingiber-officinale"
+        class="space-y-16 md:space-y-28 py-24 md:py-40"
       >
-        <div
-          class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
+        <section class="space-y-8 md:mr-64">
+          <h2 data-animate>Premium Ginger – Zingiber officinale (Jahe Gajah)</h2>
+          <h4 data-animate data-animate>
+            Jahe Gajah is one of Indonesia’s finest ginger varieties — known for
+            its large rhizome size, smooth skin, low fiber content, and moderate
+            pungency. Its consistent aroma and long shelf life make it ideal for
+            the food, beverage, herbal, pharmaceutical, and cosmetic industries.
+          </h4>
+          <h4 data-animate data-animate>
+            We supply fresh Jahe Gajah that meets global export standards,
+            available in various forms and packaging based on buyer request.
+          </h4>
+        </section>
+        <section
+          class="flex items-start justify-center md:justify-start gap-10 flex-wrap"
         >
-          <img
-            src="./assets/icons/quality.svg"
+          <img data-animate
+          data-animate
+            src="./assets/images/ginger-2.png"
             alt=""
-            class="w-14 h-14 md:h-auto md:w-auto" data-animate
+            class="rounded-xl h-auto w-1/2 md:w-2/8 center"
           />
-          <h4 class="font-semibold text-xl md:text-2xl" data-animate>Quality</h4>
-          <p data-animate>
-            We uphold the highest standards of quality at every stage — from
-            selecting the finest ginger, to hygienic packaging processes, and
-            timely international delivery. Our commitment is to provide products
-            that meet global standards and ensure customer satisfaction.
-          </p>
-        </div>
-        <div
-          class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
-        >
-          <img
-            src="./assets/icons/commitment.svg"
-            alt=""
-            class="w-14 h-14 md:h-auto md:w-auto" data-animate
-          />
-          <h4 class="font-semibold text-xl md:text-2xl" data-animate>Commitment</h4>
-          <p data-animate>
-            We are dedicated to bringing Indonesia’s finest spices to the world.
-            Every partnership is a responsibility we take seriously, and every
-            shipment reflects our integrity and reliability.
-          </p>
-        </div>
-        <div
-          class="text-start flex flex-col justify-center md:justify-start items-center md:items-start space-y-4"
-        >
-          <img
-            src="./assets/icons/innovation.svg"
-            alt=""
-            class="w-14 h-14 md:h-auto md:w-auto" data-animate
-          />
-          <h4 class="font-semibold text-xl md:text-2xl" data-animate>innovation</h4>
-          <p data-animate>
-            We continuously innovate our cultivation, processing, and packaging
-            methods to ensure our ginger and spices not only meet the highest
-            quality but also adapt to global standards and dynamic market
-            demands.
-          </p>
-        </div>
+          <div class="w-full md:w-4/6 space-y-4">
+            <h3 data-animate data-animate class="text-green-700 px-3">Specification</h3>
+            <table class="min-w-full divide-y divide-gray-200">
+              <tbody class="bg-white divide-y divide-gray-200">
+                <tr data-animate data-animate>
+                  <td>Skin Color</td>
+                  <td>Light yellow, clean, smooth, free of black spots</td>
+                </tr>
+                <tr data-animate data-animate>
+                  <td>Flesh Color</td>
+                  <td>Bright yellow to yellowish-white</td>
+                </tr>
+                <tr data-animate data-animate>
+                  <td>Aroma & Taste</td>
+                  <td>Sharp and refreshing aroma, moderately spicy taste</td>
+                </tr data-animate>
+                <tr data-animate>
+                  <td>Texture</td>
+                  <td>Fibrous-free</td>
+                </tr>
+                <tr data-animate>
+                  <td>Rhizome Diameter</td>
+                  <td>4–8 cm per rhizome</td>
+                </tr>
+                <tr data-animate>
+                  <td>Rhizome Weight</td>
+                  <td>300–500 grams per rhizome</td>
+                </tr>
+                <tr data-animate>
+                  <td>Condition</td>
+                  <td>Clean, not rotten, not soft, soil-free</td>
+                </tr>
+                <tr data-animate>
+                  <td>Packaging Options</td>
+                  <td>
+                    Mesh sack (20–25 kg), wooden box, vacuum pack, or custom
+                    export carton
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="space-y-4 md:space-y-8">
+          <h3 data-animate class="text-green-700 text-center">Benefits</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="space-y-4">
+              <h3 data-animate class="text-yellow-500">Main Health Benefits</h3>
+              <ul class="list-disc pl-5 text-list">
+                <li data-animate>
+                  Rich in gingerol – contains antioxidant and anti-inflammatory
+                  properties
+                </li>
+                <li data-animate>Supports digestion, relieves nausea and cold symptoms</li>
+                <li data-animate>
+                  Widely used in herbal therapy, health foods, and detox drinks
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <h3 data-animate class="text-yellow-500">Our Product Advantages</h3>
+              <ul class="list-disc pl-5 text-list">
+                <li data-animate>Large, uniform size with excellent visual quality</li>
+                <li data-animate>Consistent aroma and flavor – ideal for industrial use</li>
+                <li data-animate>Long shelf life – perfect for long-distance export</li>
+                <li data-animate>Year-round availability</li>
+                <li data-animate>
+                  Processed and packed according to international export
+                  standards
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
 
-    <section
-      class="relative px-8 md:px-24 lg:px-32 p-16 lg:p-20 bg-[#267D48] rounded-2xl" data-animate
-    >
-      <img
-        src="./assets/ornaments/ornament-2.svg"
-        alt=""
-        class="absolute top-0 right-0 h-32 md:h-auto"
-      />
-      <img
-        src="./assets/ornaments/ornament-3.svg"
-        alt=""
-        class="absolute top-5 left-14 w-44 md:w-auto h-auto"
-      />
-      <div class="text-center space-y-3 md:space-y-5 z-10 relative">
-        <h3 data-animate>Ready to Bring Indonesian Ginger to Your Market?</h3>
-        <h4 class="text-white md:px-18" data-animate>
-          Partner with PT. Nawasena Amerta Ekspora and receive premium-grade
-          Ginger with consistent quality, sustainable practices, and reliable
-          delivery. Let’s grow together globally.
-        </h4>
+      <div id="cinamon" class="space-y-16 md:space-y-28 py-24 md:py-40">
+        <section class="space-y-8 md:mr-64 text-right">
+          <h2 data-animate class="text-yellow-500">Premium Cinnamon - Cut Cinnamon Stick</h2>
+          <h4 data-animate>
+            Indonesia is home to some of the world’s finest cinnamon, renowned
+            for its strong sweet aroma and distinctive warm, spicy flavor. With
+            thick bark and a high essential oil content, Indonesian cinnamon is
+            ideal for use in the food & beverage industry, pharmaceuticals,
+            cosmetics, and aromatherapy.
+          </h4>
+          <h4 data-animate>
+            Our cinnamon is exported in a variety of hygienic, food-safe
+            packaging options to meet international standards. We offer
+            customizable grades, sizes, and packaging to suit buyer
+            specifications and export requirements.
+          </h4>
+        </section>
+        <section
+          class="flex items-start justify-center md:justify-start space-y-reverse gap-10 flex-wrap"
+        >
+          <img data-animate
+            src="./assets/images/cinnamon-2.png"
+            alt=""
+            class="rounded-xl h-auto w-1/2 md:w-2/8 center order-1 md:order-2"
+          />
+          <div class="w-full md:w-4/6 space-y-4">
+            <h3 data-animate class="text-green-700 px-3">Specification</h3>
+            <table class="min-w-full divide-y divide-gray-200">
+              <tbody class="bg-white divide-y divide-gray-200">
+                <tr data-animate>
+                  <td>Skin Color</td>
+                  <td>Light brown to dark brown, clean, smooth, mold-free</td>
+                </tr>
+                <tr data-animate>
+                  <td>Aroma & Taste</td>
+                  <td>
+                    Distinct sweet cinnamon aroma, sweet, spicy, and warm taste
+                  </td>
+                </tr>
+                <tr data-animate>
+                  <td>Texture</td>
+                  <td>Dry, hard, not soft, not watery</td>
+                </tr>
+                <tr data-animate>
+                  <td>Stick Length</td>
+                  <td>8–45 cm (depending on grade)</td>
+                </tr>
+                <tr data-animate>
+                  <td>Diameter</td>
+                  <td>0.5–3 cm</td>
+                </tr>
+                <tr data-animate>
+                  <td>Condition</td>
+                  <td>Clean, insect-free, mold-free, contamination-free</td>
+                </tr>
+                <tr data-animate>
+                  <td>Packaging Options</td>
+                  <td>
+                    25–50 kg sacks, plastic inner lining, carton box, vacuum
+                    pack (as per export request)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="space-y-4 md:space-y-8">
+          <h3 data-animate class="text-green-700 text-center">Benefits</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="space-y-4">
+              <h3 data-animate class="text-yellow-500">Main Health Benefits</h3>
+              <ul class="list-disc pl-5 text-list">
+                <li data-animate>
+                  Contains cinnamaldehyde, known for its antioxidant and
+                  anti-inflammatory properties
+                </li>
+                <li data-animate>Helps regulate blood sugar and cholesterol levels</li>
+                <li data-animate>Supports immune system and digestive health</li>
+                <li data-animate>Acts as a natural aromatherapy for relaxation</li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <h3 data-animate class="text-yellow-500">Our Product Advantages</h3>
+              <ul class="list-disc pl-5 text-list">
+                <li data-animate>
+                  Rich Aroma & Flavor – Strong sweet aroma and warm, spicy taste
+                  unique to Indonesian cinnamon
+                </li>
+                <li data-animate>
+                  Clean & Mold-Free – Carefully dried and sorted for clean,
+                  smooth bark with no mold or contaminants
+                </li>
+                <li data-animate>
+                  High Essential Oil Content – Ideal for food, beverage,
+                  pharmaceutical, and aromatherapy industries
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
 
-    <footer class="text-gray-800">
+      <section class="relative p-10 lg:p-20 bg-[#267D48] rounded-2xl">
+        <img data-animate
+          src="./assets/ornaments/ornament-2.svg"
+          alt=""
+          class="absolute top-0 right-0 h-32 md:h-auto"
+        />
+        <img data-animate
+          src="./assets/ornaments/ornament-3.svg"
+          alt=""
+          class="absolute top-5 left-14 w-44 md:w-auto h-auto"
+        />
+        <div class="text-center space-y-3 md:space-y-5 z-10 relative">
+          <h3 data-animate>
+            Ready to Import Premium-Quality Ginger and Cinnamon from Indonesia?
+          </h3>
+          <h4 data-animate class="text-white md:px-18">
+            Contact us today to get pricing, packaging options, and sample
+            availability.
+          </h4>
+          <button data-animate class="btn-primary">Contact Us via WhatsApp</button>
+        </div>
+      </section>
+    </main>
+
+   <footer class="text-gray-800">
       <!-- Konten utama footer -->
       <div class="flex flex-col md:flex-row justify-between items-start gap-10">
         <!-- Deskripsi Perusahaan -->
