@@ -1,5 +1,6 @@
 # Abaikan file hasil build Tailwind
 src/styles/output.css
+src/css/output.css
 
 # Direktori dependency
 node_modules/
