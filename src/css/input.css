@@ -9,6 +9,9 @@
   .font-jakarta {
     font-family: "Plus Jakarta Sans", sans-serif;
   }
+  [data-animate] {
+    @apply opacity-0 translate-y-10 transition-all duration-1000;
+  }
 }
 
 @layer base {
@@ -30,11 +33,15 @@
     @apply text-lg font-bold text-white leading-tight;
     @apply md:text-2xl lg:text-3xl;
   }
-  h4, .text-list, td {
+  h4,
+  .text-list,
+  td {
     @apply text-sm text-black leading-5 tracking-wide;
     @apply md:text-xl md:leading-10 lg:text-2xl;
   }
-  p, .btn-primary, .btn-secondary {
+  p,
+  .btn-primary,
+  .btn-secondary {
     @apply text-xs text-black tracking-wide leading-5;
     @apply md:text-base lg:text-lg md:leading-8;
   }
@@ -57,5 +64,4 @@
   .btn-secondary {
     @apply bg-white hover:bg-gray-100 transition-colors duration-300 border border-black py-0.5 md:py-2 px-4 rounded-full text-black cursor-pointer;
   }
-
 }
